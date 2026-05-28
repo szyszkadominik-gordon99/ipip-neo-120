@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "source": "Johnson, J.A. (2014). Measuring thirty facets of the Five Factor Model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality, 51, 78-89. Table 2.",
+    "primary_sample": "Internet sample, N = 619,150",
+    "secondary_sample": "Eugene-Springfield community sample, N = 481",
+    "score_range_facet": [
+      4,
+      20
+    ],
+    "score_range_domain": [
+      24,
+      120
+    ],
+    "norm_choice_rationale": "Normy główne z próby internetowej (N=619,150): reprezentatywna dla populacji docelowej aplikacji webowej. Eugene-Springfield przechowywana jako referencja.",
+    "domain_norms": "Table 1 nie zawiera statystyk domenowych. Wyniki domenowe = suma 6 faset. Normy domenowe będą obliczane analitycznie (suma M faset, SD przez pierwiastek sumy wariancji przy założeniu r=0 – konserwatywne przybliżenie).",
+    "WARNING_domain_SD": "Analityczne SD domen zakłada zerową korelację między fasetami – rzeczywiste SD będzie wyższe. Do kalibracji użyj empirycznych SD z literatury lub oblicz z surowych danych jeśli dostępne.",
+    "percentile_formula": "z = (raw - mean) / sd  =>  p = round(norm.cdf(z) * 100)  =>  clamp(p, 1, 99)"
+  },
+  "facets": {
+    "N1": {
+      "name": "Anxiety",
+      "name_pl": "Lęk",
+      "domain": "N",
+      "mean": 15.22,
+      "sd": 4.79,
+      "mean_es": 12.23,
+      "sd_es": 4.2
+    },
+    "N2": {
+      "name": "Anger",
+      "name_pl": "Gniew",
+      "domain": "N",
+      "mean": 13.62,
+      "sd": 4.51,
+      "mean_es": 11.95,
+      "sd_es": 4.08
+    },
+    "N3": {
+      "name": "Depression",
+      "name_pl": "Depresja",
+      "domain": "N",
+      "mean": 14.19,
+      "sd": 5.34,
+      "mean_es": 11.37,
+      "sd_es": 4.38
+    },
+    "N4": {
+      "name": "Self-Consciousness",
+      "name_pl": "Wstydliwość",
+      "domain": "N",
+      "mean": 14.88,
+      "sd": 4.41,
+      "mean_es": 12.72,
+      "sd_es": 4.07
+    },
+    "N5": {
+      "name": "Immoderation",
+      "name_pl": "Impulsywność",
+      "domain": "N",
+      "mean": 14.73,
+      "sd": 4.08,
+      "mean_es": 13.29,
+      "sd_es": 3.65
+    },
+    "N6": {
+      "name": "Vulnerability",
+      "name_pl": "Bezbronność",
+      "domain": "N",
+      "mean": 11.77,
+      "sd": 4.14,
+      "mean_es": 9.92,
+      "sd_es": 3.39
+    },
+    "E1": {
+      "name": "Friendliness",
+      "name_pl": "Serdeczność",
+      "domain": "E",
+      "mean": 15.53,
+      "sd": 4.33,
+      "mean_es": 16.73,
+      "sd_es": 3.59
+    },
+    "E2": {
+      "name": "Gregariousness",
+      "name_pl": "Towarzyskość",
+      "domain": "E",
+      "mean": 13.06,
+      "sd": 5.09,
+      "mean_es": 12.56,
+      "sd_es": 4.37
+    },
+    "E3": {
+      "name": "Assertiveness",
+      "name_pl": "Asertywność",
+      "domain": "E",
+      "mean": 14.5,
+      "sd": 4.54,
+      "mean_es": 14.61,
+      "sd_es": 4.21
+    },
+    "E4": {
+      "name": "Activity Level",
+      "name_pl": "Aktywność",
+      "domain": "E",
+      "mean": 14.07,
+      "sd": 4.03,
+      "mean_es": 13.91,
+      "sd_es": 3.72
+    },
+    "E5": {
+      "name": "Excitement-Seeking",
+      "name_pl": "Poszukiwanie doznań",
+      "domain": "E",
+      "mean": 14.0,
+      "sd": 4.44,
+      "mean_es": 11.75,
+      "sd_es": 4.02
+    },
+    "E6": {
+      "name": "Cheerfulness",
+      "name_pl": "Pozytywne emocje",
+      "domain": "E",
+      "mean": 16.03,
+      "sd": 4.44,
+      "mean_es": 16.52,
+      "sd_es": 3.51
+    },
+    "O1": {
+      "name": "Imagination",
+      "name_pl": "Wyobraźnia",
+      "domain": "O",
+      "mean": 17.55,
+      "sd": 3.86,
+      "mean_es": 16.29,
+      "sd_es": 3.96
+    },
+    "O2": {
+      "name": "Artistic Interests",
+      "name_pl": "Wrażliwość estetyczna",
+      "domain": "O",
+      "mean": 15.65,
+      "sd": 5.06,
+      "mean_es": 14.59,
+      "sd_es": 5.1
+    },
+    "O3": {
+      "name": "Emotionality",
+      "name_pl": "Uczuciowość",
+      "domain": "O",
+      "mean": 16.58,
+      "sd": 4.19,
+      "mean_es": 16.15,
+      "sd_es": 3.75
+    },
+    "O4": {
+      "name": "Adventurousness",
+      "name_pl": "Ciekawość nowości",
+      "domain": "O",
+      "mean": 14.75,
+      "sd": 4.1,
+      "mean_es": 14.02,
+      "sd_es": 3.7
+    },
+    "O5": {
+      "name": "Intellect",
+      "name_pl": "Intelekt",
+      "domain": "O",
+      "mean": 17.38,
+      "sd": 3.8,
+      "mean_es": 17.5,
+      "sd_es": 3.51
+    },
+    "O6": {
+      "name": "Liberalism",
+      "name_pl": "Liberalizm",
+      "domain": "O",
+      "mean": 17.15,
+      "sd": 4.05,
+      "mean_es": 17.13,
+      "sd_es": 4.02
+    },
+    "A1": {
+      "name": "Trust",
+      "name_pl": "Zaufanie",
+      "domain": "A",
+      "mean": 15.34,
+      "sd": 3.97,
+      "mean_es": 15.93,
+      "sd_es": 3.33
+    },
+    "A2": {
+      "name": "Morality",
+      "name_pl": "Moralność",
+      "domain": "A",
+      "mean": 17.3,
+      "sd": 3.48,
+      "mean_es": 18.06,
+      "sd_es": 2.65
+    },
+    "A3": {
+      "name": "Altruism",
+      "name_pl": "Altruizm",
+      "domain": "A",
+      "mean": 18.06,
+      "sd": 3.03,
+      "mean_es": 18.39,
+      "sd_es": 2.5
+    },
+    "A4": {
+      "name": "Cooperation",
+      "name_pl": "Ugodowość",
+      "domain": "A",
+      "mean": 16.28,
+      "sd": 3.71,
+      "mean_es": 17.2,
+      "sd_es": 3.12
+    },
+    "A5": {
+      "name": "Modesty",
+      "name_pl": "Skromność",
+      "domain": "A",
+      "mean": 14.49,
+      "sd": 4.34,
+      "mean_es": 14.49,
+      "sd_es": 3.98
+    },
+    "A6": {
+      "name": "Sympathy",
+      "name_pl": "Empatia",
+      "domain": "A",
+      "mean": 17.51,
+      "sd": 3.25,
+      "mean_es": 17.57,
+      "sd_es": 2.76
+    },
+    "C1": {
+      "name": "Self-Efficacy",
+      "name_pl": "Skuteczność",
+      "domain": "C",
+      "mean": 17.65,
+      "sd": 3.17,
+      "mean_es": 18.05,
+      "sd_es": 2.82
+    },
+    "C2": {
+      "name": "Orderliness",
+      "name_pl": "Porządek",
+      "domain": "C",
+      "mean": 14.5,
+      "sd": 4.38,
+      "mean_es": 15.4,
+      "sd_es": 3.88
+    },
+    "C3": {
+      "name": "Dutifulness",
+      "name_pl": "Obowiązkowość",
+      "domain": "C",
+      "mean": 17.43,
+      "sd": 3.35,
+      "mean_es": 18.25,
+      "sd_es": 2.74
+    },
+    "C4": {
+      "name": "Achievement-Striving",
+      "name_pl": "Dążenie do osiągnięć",
+      "domain": "C",
+      "mean": 15.35,
+      "sd": 4.15,
+      "mean_es": 15.2,
+      "sd_es": 3.95
+    },
+    "C5": {
+      "name": "Self-Discipline",
+      "name_pl": "Samodyscyplina",
+      "domain": "C",
+      "mean": 14.45,
+      "sd": 4.61,
+      "mean_es": 15.54,
+      "sd_es": 4.13
+    },
+    "C6": {
+      "name": "Cautiousness",
+      "name_pl": "Ostrożność",
+      "domain": "C",
+      "mean": 14.73,
+      "sd": 4.05,
+      "mean_es": 15.9,
+      "sd_es": 3.65
+    }
+  },
+  "domains_analytic": {
+    "N": {
+      "name": "N",
+      "mean_analytic": 84.41,
+      "sd_analytic_lower_bound": 11.18,
+      "note": "SD analityczne (zakłada r=0 między fasetami). Rzeczywiste SD wyższe."
+    },
+    "E": {
+      "name": "E",
+      "mean_analytic": 87.19,
+      "sd_analytic_lower_bound": 11.0,
+      "note": "SD analityczne (zakłada r=0 między fasetami). Rzeczywiste SD wyższe."
+    },
+    "O": {
+      "name": "O",
+      "mean_analytic": 99.06,
+      "sd_analytic_lower_bound": 10.28,
+      "note": "SD analityczne (zakłada r=0 między fasetami). Rzeczywiste SD wyższe."
+    },
+    "A": {
+      "name": "A",
+      "mean_analytic": 98.98,
+      "sd_analytic_lower_bound": 8.96,
+      "note": "SD analityczne (zakłada r=0 między fasetami). Rzeczywiste SD wyższe."
+    },
+    "C": {
+      "name": "C",
+      "mean_analytic": 94.11,
+      "sd_analytic_lower_bound": 9.76,
+      "note": "SD analityczne (zakłada r=0 między fasetami). Rzeczywiste SD wyższe."
+    }
+  }
+}

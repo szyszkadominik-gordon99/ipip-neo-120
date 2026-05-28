@@ -1,0 +1,1100 @@
+{
+  "metadata": {
+    "scale": "IPIP-NEO-120",
+    "items_per_facet": 4,
+    "facets_per_domain": 6,
+    "total_items": 120,
+    "response_scale": {
+      "1": "Zdecydowanie nieprawdziwe",
+      "2": "Raczej nieprawdziwe",
+      "3": "Ani prawdziwe, ani fałszywe",
+      "4": "Raczej prawdziwe",
+      "5": "Zdecydowanie prawdziwe"
+    },
+    "scoring_rule": "keyed='+': wynik_pytania = odpowiedź (1-5). keyed='-': wynik_pytania = 6 - odpowiedź. Wynik fasety = suma 4 pytań (zakres 4–20). Wynik domeny = suma 6 faset (zakres 24–120).",
+    "source": "IPIP public domain item pool (ipip.ori.org). Adaptacja oparta na: Johnson, J.A. (2014). Journal of Research in Personality, 51, 78–89.",
+    "language_note": "UWAGA: Tłumaczenie robocze. Przed wdrożeniem produkcyjnym zweryfikuj z walidowaną polską wersją IPIP-NEO (lub przeprowadź własną walidację treściową). Brak oficjalnej polskiej normatywizacji dla tej wersji."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Martwię się o wiele rzeczy.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N1",
+      "facet_name": "Lęk",
+      "keyed": "+"
+    },
+    {
+      "id": 2,
+      "text": "Boję się najgorszego.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N1",
+      "facet_name": "Lęk",
+      "keyed": "+"
+    },
+    {
+      "id": 3,
+      "text": "Wiele mnie niepokoi.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N1",
+      "facet_name": "Lęk",
+      "keyed": "+"
+    },
+    {
+      "id": 4,
+      "text": "Rzadko czuję się niespokojny/a.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N1",
+      "facet_name": "Lęk",
+      "keyed": "-"
+    },
+    {
+      "id": 5,
+      "text": "Łatwo się złoszczę.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N2",
+      "facet_name": "Gniew",
+      "keyed": "+"
+    },
+    {
+      "id": 6,
+      "text": "Denerwuję się, gdy nie idzie mi po myśli.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N2",
+      "facet_name": "Gniew",
+      "keyed": "+"
+    },
+    {
+      "id": 7,
+      "text": "Bywam rozdrażniony/a.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N2",
+      "facet_name": "Gniew",
+      "keyed": "+"
+    },
+    {
+      "id": 8,
+      "text": "Trudno mnie zdenerwować.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N2",
+      "facet_name": "Gniew",
+      "keyed": "-"
+    },
+    {
+      "id": 9,
+      "text": "Często czuję się przygnębiony/a.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N3",
+      "facet_name": "Depresja",
+      "keyed": "+"
+    },
+    {
+      "id": 10,
+      "text": "Nie jestem zadowolony/a z siebie.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N3",
+      "facet_name": "Depresja",
+      "keyed": "+"
+    },
+    {
+      "id": 11,
+      "text": "Łatwo wpadam w chandrę.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N3",
+      "facet_name": "Depresja",
+      "keyed": "+"
+    },
+    {
+      "id": 12,
+      "text": "Rzadko czuję się smutny/a.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N3",
+      "facet_name": "Depresja",
+      "keyed": "-"
+    },
+    {
+      "id": 13,
+      "text": "Łatwo się zawstydzam.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N4",
+      "facet_name": "Wstydliwość",
+      "keyed": "+"
+    },
+    {
+      "id": 14,
+      "text": "Czuję się skrępowany/a w towarzystwie obcych.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N4",
+      "facet_name": "Wstydliwość",
+      "keyed": "+"
+    },
+    {
+      "id": 15,
+      "text": "Martwię się, co inni sądzą na mój temat.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N4",
+      "facet_name": "Wstydliwość",
+      "keyed": "+"
+    },
+    {
+      "id": 16,
+      "text": "Czuję się swobodnie w nowych sytuacjach społecznych.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N4",
+      "facet_name": "Wstydliwość",
+      "keyed": "-"
+    },
+    {
+      "id": 17,
+      "text": "Trudno mi oprzeć się pokusom.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N5",
+      "facet_name": "Impulsywność",
+      "keyed": "+"
+    },
+    {
+      "id": 18,
+      "text": "Daję się ponosić emocjom.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N5",
+      "facet_name": "Impulsywność",
+      "keyed": "+"
+    },
+    {
+      "id": 19,
+      "text": "Mam kłopoty z kontrolowaniem swoich zachcianek.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N5",
+      "facet_name": "Impulsywność",
+      "keyed": "+"
+    },
+    {
+      "id": 20,
+      "text": "Potrafię kontrolować swoje pragnienia.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N5",
+      "facet_name": "Impulsywność",
+      "keyed": "-"
+    },
+    {
+      "id": 21,
+      "text": "Pod wpływem stresu czuję się bezradny/a.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N6",
+      "facet_name": "Bezbronność",
+      "keyed": "+"
+    },
+    {
+      "id": 22,
+      "text": "W trudnych sytuacjach łatwo się poddaję.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N6",
+      "facet_name": "Bezbronność",
+      "keyed": "+"
+    },
+    {
+      "id": 23,
+      "text": "Gdy jestem zestresowany/a, trudno mi myśleć jasno.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N6",
+      "facet_name": "Bezbronność",
+      "keyed": "+"
+    },
+    {
+      "id": 24,
+      "text": "Dobrze radzę sobie z trudnymi sytuacjami.",
+      "domain": "N",
+      "domain_name": "Neurotyczność",
+      "facet": "N6",
+      "facet_name": "Bezbronność",
+      "keyed": "-"
+    },
+    {
+      "id": 25,
+      "text": "Łatwo nawiązuję kontakty z innymi.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E1",
+      "facet_name": "Serdeczność",
+      "keyed": "+"
+    },
+    {
+      "id": 26,
+      "text": "Lubię rozmawiać z nowymi ludźmi.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E1",
+      "facet_name": "Serdeczność",
+      "keyed": "+"
+    },
+    {
+      "id": 27,
+      "text": "Czuję się dobrze w towarzystwie innych.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E1",
+      "facet_name": "Serdeczność",
+      "keyed": "+"
+    },
+    {
+      "id": 28,
+      "text": "Wolę być sam/a niż w towarzystwie.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E1",
+      "facet_name": "Serdeczność",
+      "keyed": "-"
+    },
+    {
+      "id": 29,
+      "text": "Lubię duże imprezy i spotkania.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E2",
+      "facet_name": "Towarzyskość",
+      "keyed": "+"
+    },
+    {
+      "id": 30,
+      "text": "Szukam towarzystwa innych ludzi.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E2",
+      "facet_name": "Towarzyskość",
+      "keyed": "+"
+    },
+    {
+      "id": 31,
+      "text": "Unikam tłumów.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E2",
+      "facet_name": "Towarzyskość",
+      "keyed": "-"
+    },
+    {
+      "id": 32,
+      "text": "Wolę samotność od towarzystwa.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E2",
+      "facet_name": "Towarzyskość",
+      "keyed": "-"
+    },
+    {
+      "id": 33,
+      "text": "Przejmuję inicjatywę w grupie.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E3",
+      "facet_name": "Asertywność",
+      "keyed": "+"
+    },
+    {
+      "id": 34,
+      "text": "Potrafię przekonać innych do swoich poglądów.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E3",
+      "facet_name": "Asertywność",
+      "keyed": "+"
+    },
+    {
+      "id": 35,
+      "text": "Czuję się naturalnie jako lider.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E3",
+      "facet_name": "Asertywność",
+      "keyed": "+"
+    },
+    {
+      "id": 36,
+      "text": "Wolę, żeby inni podejmowali decyzje.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E3",
+      "facet_name": "Asertywność",
+      "keyed": "-"
+    },
+    {
+      "id": 37,
+      "text": "Prowadzę aktywne życie.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E4",
+      "facet_name": "Aktywność",
+      "keyed": "+"
+    },
+    {
+      "id": 38,
+      "text": "Zawsze mam wiele do zrobienia.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E4",
+      "facet_name": "Aktywność",
+      "keyed": "+"
+    },
+    {
+      "id": 39,
+      "text": "Rzadko siedzę bezczynnie.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E4",
+      "facet_name": "Aktywność",
+      "keyed": "+"
+    },
+    {
+      "id": 40,
+      "text": "Wolę spokojne życie bez pośpiechu.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E4",
+      "facet_name": "Aktywność",
+      "keyed": "-"
+    },
+    {
+      "id": 41,
+      "text": "Szukam emocji i przygód.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E5",
+      "facet_name": "Poszukiwanie doznań",
+      "keyed": "+"
+    },
+    {
+      "id": 42,
+      "text": "Lubię ryzykowne sytuacje.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E5",
+      "facet_name": "Poszukiwanie doznań",
+      "keyed": "+"
+    },
+    {
+      "id": 43,
+      "text": "Pociągają mnie intensywne doznania.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E5",
+      "facet_name": "Poszukiwanie doznań",
+      "keyed": "+"
+    },
+    {
+      "id": 44,
+      "text": "Unikam sytuacji, które niosą ryzyko.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E5",
+      "facet_name": "Poszukiwanie doznań",
+      "keyed": "-"
+    },
+    {
+      "id": 45,
+      "text": "Śmieję się często.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E6",
+      "facet_name": "Pozytywne emocje",
+      "keyed": "+"
+    },
+    {
+      "id": 46,
+      "text": "Jestem pogodną i radosną osobą.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E6",
+      "facet_name": "Pozytywne emocje",
+      "keyed": "+"
+    },
+    {
+      "id": 47,
+      "text": "Mój nastrój jest zwykle dobry.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E6",
+      "facet_name": "Pozytywne emocje",
+      "keyed": "+"
+    },
+    {
+      "id": 48,
+      "text": "Rzadko czuję się naprawdę szczęśliwy/a.",
+      "domain": "E",
+      "domain_name": "Ekstrawersja",
+      "facet": "E6",
+      "facet_name": "Pozytywne emocje",
+      "keyed": "-"
+    },
+    {
+      "id": 49,
+      "text": "Mam bogatą wyobraźnię.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O1",
+      "facet_name": "Wyobraźnia",
+      "keyed": "+"
+    },
+    {
+      "id": 50,
+      "text": "Lubię marzenia i fantazjowanie.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O1",
+      "facet_name": "Wyobraźnia",
+      "keyed": "+"
+    },
+    {
+      "id": 51,
+      "text": "Często wyobrażam sobie różne scenariusze i alternatywne światy.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O1",
+      "facet_name": "Wyobraźnia",
+      "keyed": "+"
+    },
+    {
+      "id": 52,
+      "text": "Rzadko fantazjuję lub marzę na jawie.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O1",
+      "facet_name": "Wyobraźnia",
+      "keyed": "-"
+    },
+    {
+      "id": 53,
+      "text": "Cenię piękno w sztuce i przyrodzie.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O2",
+      "facet_name": "Wrażliwość estetyczna",
+      "keyed": "+"
+    },
+    {
+      "id": 54,
+      "text": "Muzyka, poezja lub sztuka wywierają na mnie duże wrażenie.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O2",
+      "facet_name": "Wrażliwość estetyczna",
+      "keyed": "+"
+    },
+    {
+      "id": 55,
+      "text": "Łatwo wchodzę w nastrój podczas obcowania ze sztuką.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O2",
+      "facet_name": "Wrażliwość estetyczna",
+      "keyed": "+"
+    },
+    {
+      "id": 56,
+      "text": "Sztuka nie robi na mnie szczególnego wrażenia.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O2",
+      "facet_name": "Wrażliwość estetyczna",
+      "keyed": "-"
+    },
+    {
+      "id": 57,
+      "text": "Łatwo mnie wzruszają przeżycia emocjonalne.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O3",
+      "facet_name": "Uczuciowość",
+      "keyed": "+"
+    },
+    {
+      "id": 58,
+      "text": "Jestem emocjonalnie wrażliwy/a.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O3",
+      "facet_name": "Uczuciowość",
+      "keyed": "+"
+    },
+    {
+      "id": 59,
+      "text": "Odczuwam głębokie emocje.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O3",
+      "facet_name": "Uczuciowość",
+      "keyed": "+"
+    },
+    {
+      "id": 60,
+      "text": "Rzadko przeżywam silne emocje.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O3",
+      "facet_name": "Uczuciowość",
+      "keyed": "-"
+    },
+    {
+      "id": 61,
+      "text": "Lubię próbować nowych rzeczy.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O4",
+      "facet_name": "Ciekawość nowości",
+      "keyed": "+"
+    },
+    {
+      "id": 62,
+      "text": "Preferuję zmianę i różnorodność od rutyny.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O4",
+      "facet_name": "Ciekawość nowości",
+      "keyed": "+"
+    },
+    {
+      "id": 63,
+      "text": "Chętnie eksperymentuję z nowymi sposobami działania.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O4",
+      "facet_name": "Ciekawość nowości",
+      "keyed": "+"
+    },
+    {
+      "id": 64,
+      "text": "Wolę sprawdzone, znane metody działania.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O4",
+      "facet_name": "Ciekawość nowości",
+      "keyed": "-"
+    },
+    {
+      "id": 65,
+      "text": "Lubię rozwiązywać złożone problemy.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O5",
+      "facet_name": "Intelekt",
+      "keyed": "+"
+    },
+    {
+      "id": 66,
+      "text": "Chętnie analizuję skomplikowane idee.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O5",
+      "facet_name": "Intelekt",
+      "keyed": "+"
+    },
+    {
+      "id": 67,
+      "text": "Fascynują mnie abstrakcyjne koncepcje.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O5",
+      "facet_name": "Intelekt",
+      "keyed": "+"
+    },
+    {
+      "id": 68,
+      "text": "Nie interesują mnie abstrakcyjne rozważania.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O5",
+      "facet_name": "Intelekt",
+      "keyed": "-"
+    },
+    {
+      "id": 69,
+      "text": "Kwestionuję utarte normy i wartości.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O6",
+      "facet_name": "Liberalizm",
+      "keyed": "+"
+    },
+    {
+      "id": 70,
+      "text": "Jestem otwarty/a na nowatorskie podejście do tradycyjnych wartości.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O6",
+      "facet_name": "Liberalizm",
+      "keyed": "+"
+    },
+    {
+      "id": 71,
+      "text": "Uważam, że należy zmieniać zasady, które już nie służą swoim celom.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O6",
+      "facet_name": "Liberalizm",
+      "keyed": "+"
+    },
+    {
+      "id": 72,
+      "text": "Cenię tradycję i ustalone sposoby postępowania.",
+      "domain": "O",
+      "domain_name": "Otwartość na doświadczenie",
+      "facet": "O6",
+      "facet_name": "Liberalizm",
+      "keyed": "-"
+    },
+    {
+      "id": 73,
+      "text": "Wierzę w dobre intencje innych ludzi.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A1",
+      "facet_name": "Zaufanie",
+      "keyed": "+"
+    },
+    {
+      "id": 74,
+      "text": "Uważam, że ludziom można ufać.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A1",
+      "facet_name": "Zaufanie",
+      "keyed": "+"
+    },
+    {
+      "id": 75,
+      "text": "Zakładam, że większość ludzi jest uczciwa.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A1",
+      "facet_name": "Zaufanie",
+      "keyed": "+"
+    },
+    {
+      "id": 76,
+      "text": "Podchodzę podejrzliwie do intencji innych.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A1",
+      "facet_name": "Zaufanie",
+      "keyed": "-"
+    },
+    {
+      "id": 77,
+      "text": "Nie lubię kłamać ani oszukiwać.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A2",
+      "facet_name": "Moralność",
+      "keyed": "+"
+    },
+    {
+      "id": 78,
+      "text": "Postępuję zgodnie ze swoimi zasadami moralnymi.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A2",
+      "facet_name": "Moralność",
+      "keyed": "+"
+    },
+    {
+      "id": 79,
+      "text": "Nie stosowałbym/łabym nieuczciwych metod dla osiągnięcia korzyści.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A2",
+      "facet_name": "Moralność",
+      "keyed": "+"
+    },
+    {
+      "id": 80,
+      "text": "Zdarzyło mi się manipulować innymi dla własnych celów.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A2",
+      "facet_name": "Moralność",
+      "keyed": "-"
+    },
+    {
+      "id": 81,
+      "text": "Lubię pomagać innym.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A3",
+      "facet_name": "Altruizm",
+      "keyed": "+"
+    },
+    {
+      "id": 82,
+      "text": "Odczuwam satysfakcję, gdy mogę komuś pomóc.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A3",
+      "facet_name": "Altruizm",
+      "keyed": "+"
+    },
+    {
+      "id": 83,
+      "text": "Chętnie poświęcam swój czas innym.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A3",
+      "facet_name": "Altruizm",
+      "keyed": "+"
+    },
+    {
+      "id": 84,
+      "text": "Nie czuję potrzeby pomagania obcym.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A3",
+      "facet_name": "Altruizm",
+      "keyed": "-"
+    },
+    {
+      "id": 85,
+      "text": "Wolę współpracę od rywalizacji.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A4",
+      "facet_name": "Ugodowość",
+      "keyed": "+"
+    },
+    {
+      "id": 86,
+      "text": "Unikam kłótni i konfliktów.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A4",
+      "facet_name": "Ugodowość",
+      "keyed": "+"
+    },
+    {
+      "id": 87,
+      "text": "Jestem gotowy/a do kompromisu.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A4",
+      "facet_name": "Ugodowość",
+      "keyed": "+"
+    },
+    {
+      "id": 88,
+      "text": "Lubię spierać się z innymi.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A4",
+      "facet_name": "Ugodowość",
+      "keyed": "-"
+    },
+    {
+      "id": 89,
+      "text": "Nie lubię się przechwalać.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A5",
+      "facet_name": "Skromność",
+      "keyed": "+"
+    },
+    {
+      "id": 90,
+      "text": "Nie szukam uznania ani uwagi innych.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A5",
+      "facet_name": "Skromność",
+      "keyed": "+"
+    },
+    {
+      "id": 91,
+      "text": "Nie uważam, że jestem lepszy/a od innych.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A5",
+      "facet_name": "Skromność",
+      "keyed": "+"
+    },
+    {
+      "id": 92,
+      "text": "Wiem, że jestem lepszy/a od większości ludzi.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A5",
+      "facet_name": "Skromność",
+      "keyed": "-"
+    },
+    {
+      "id": 93,
+      "text": "Łatwo wczuwam się w problemy innych.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A6",
+      "facet_name": "Empatia",
+      "keyed": "+"
+    },
+    {
+      "id": 94,
+      "text": "Wzruszam się, widząc czyjś ból.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A6",
+      "facet_name": "Empatia",
+      "keyed": "+"
+    },
+    {
+      "id": 95,
+      "text": "Martwię się o dobro innych.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A6",
+      "facet_name": "Empatia",
+      "keyed": "+"
+    },
+    {
+      "id": 96,
+      "text": "Trudno mnie poruszyć cierpieniem innych.",
+      "domain": "A",
+      "domain_name": "Ugodowość",
+      "facet": "A6",
+      "facet_name": "Empatia",
+      "keyed": "-"
+    },
+    {
+      "id": 97,
+      "text": "Wiem, że potrafię osiągnąć swoje cele.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C1",
+      "facet_name": "Skuteczność",
+      "keyed": "+"
+    },
+    {
+      "id": 98,
+      "text": "Mam pewność siebie co do swoich umiejętności.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C1",
+      "facet_name": "Skuteczność",
+      "keyed": "+"
+    },
+    {
+      "id": 99,
+      "text": "Wierzę, że dam sobie radę z trudnymi zadaniami.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C1",
+      "facet_name": "Skuteczność",
+      "keyed": "+"
+    },
+    {
+      "id": 100,
+      "text": "Często wątpię w swoje możliwości.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C1",
+      "facet_name": "Skuteczność",
+      "keyed": "-"
+    },
+    {
+      "id": 101,
+      "text": "Lubię porządek i organizację.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C2",
+      "facet_name": "Porządek",
+      "keyed": "+"
+    },
+    {
+      "id": 102,
+      "text": "Dbam o ład i porządek w swoim otoczeniu.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C2",
+      "facet_name": "Porządek",
+      "keyed": "+"
+    },
+    {
+      "id": 103,
+      "text": "Irytuje mnie bałagan i dezorganizacja.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C2",
+      "facet_name": "Porządek",
+      "keyed": "+"
+    },
+    {
+      "id": 104,
+      "text": "Nie przeszkadza mi nieporządek.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C2",
+      "facet_name": "Porządek",
+      "keyed": "-"
+    },
+    {
+      "id": 105,
+      "text": "Zawsze dotrzymuję słowa.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C3",
+      "facet_name": "Obowiązkowość",
+      "keyed": "+"
+    },
+    {
+      "id": 106,
+      "text": "Staram się wypełniać swoje zobowiązania.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C3",
+      "facet_name": "Obowiązkowość",
+      "keyed": "+"
+    },
+    {
+      "id": 107,
+      "text": "Traktuję swoje obowiązki bardzo poważnie.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C3",
+      "facet_name": "Obowiązkowość",
+      "keyed": "+"
+    },
+    {
+      "id": 108,
+      "text": "Zdarza mi się zaniedbywać swoje obowiązki.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C3",
+      "facet_name": "Obowiązkowość",
+      "keyed": "-"
+    },
+    {
+      "id": 109,
+      "text": "Staram się robić wszystko jak najlepiej.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C4",
+      "facet_name": "Dążenie do osiągnięć",
+      "keyed": "+"
+    },
+    {
+      "id": 110,
+      "text": "Pracuję ciężko, by osiągnąć swoje cele.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C4",
+      "facet_name": "Dążenie do osiągnięć",
+      "keyed": "+"
+    },
+    {
+      "id": 111,
+      "text": "Nie satysfakcjonuje mnie nic poniżej moich standardów.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C4",
+      "facet_name": "Dążenie do osiągnięć",
+      "keyed": "+"
+    },
+    {
+      "id": 112,
+      "text": "Zadowalam się przeciętnymi wynikami.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C4",
+      "facet_name": "Dążenie do osiągnięć",
+      "keyed": "-"
+    },
+    {
+      "id": 113,
+      "text": "Zaczynam zadania od razu i kończę je.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C5",
+      "facet_name": "Samodyscyplina",
+      "keyed": "+"
+    },
+    {
+      "id": 114,
+      "text": "Łatwo mi trzymać się planu działania.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C5",
+      "facet_name": "Samodyscyplina",
+      "keyed": "+"
+    },
+    {
+      "id": 115,
+      "text": "Rzadko odkładam sprawy na później.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C5",
+      "facet_name": "Samodyscyplina",
+      "keyed": "+"
+    },
+    {
+      "id": 116,
+      "text": "Trudno mi zmusić się do pracy, gdy nie mam na to ochoty.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C5",
+      "facet_name": "Samodyscyplina",
+      "keyed": "-"
+    },
+    {
+      "id": 117,
+      "text": "Zastanawiam się przed podjęciem działania.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C6",
+      "facet_name": "Ostrożność",
+      "keyed": "+"
+    },
+    {
+      "id": 118,
+      "text": "Nie działam pochopnie.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C6",
+      "facet_name": "Ostrożność",
+      "keyed": "+"
+    },
+    {
+      "id": 119,
+      "text": "Rozważam konsekwencje zanim podejmę decyzję.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C6",
+      "facet_name": "Ostrożność",
+      "keyed": "+"
+    },
+    {
+      "id": 120,
+      "text": "Często działam bez zastanowienia.",
+      "domain": "C",
+      "domain_name": "Sumienność",
+      "facet": "C6",
+      "facet_name": "Ostrożność",
+      "keyed": "-"
+    }
+  ]
+}
