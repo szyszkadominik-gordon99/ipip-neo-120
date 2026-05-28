@@ -50,7 +50,7 @@ def get_norms():
 # ── Session state ─────────────────────────────────────────────────────────────
 
 def init_state():
-    for key, default in [("page", 0), ("results", None)]:
+    for key, default in [("page", 0), ("results", None), ("answers", {})]:
         if key not in st.session_state:
             st.session_state[key] = default
 
@@ -98,6 +98,12 @@ def page_questions(questions: list):
     end_idx   = start_idx + ITEMS_PER_PAGE
     page_qs   = questions[start_idx:end_idx]
 
+    # Przywrócenie stanu z trwałego słownika przed wyrenderowaniem widżetów
+    for q in page_qs:
+        key = f"q_{q['id']}"
+        if key not in st.session_state and q["id"] in st.session_state.answers:
+            st.session_state[key] = st.session_state.answers[q["id"]]
+
     # Pasek postępu
     progress_pct = (page_num - 1) / TOTAL_PAGES
     st.progress(
@@ -140,11 +146,20 @@ def page_questions(questions: list):
     if not answered:
         st.warning("Odpowiedz na wszystkie pytania na tej stronie, aby przejść dalej.")
 
+    # Funkcja pomocnicza do zapisu stanu bieżącej strony przed nawigacją
+    def save_current_page():
+        for q in page_qs:
+            key = f"q_{q['id']}"
+            val = st.session_state.get(key)
+            if val is not None:
+                st.session_state.answers[q["id"]] = val
+
     col_back, col_space, col_next = st.columns([1, 2, 1])
 
     with col_back:
         if page_num > 1:
             if st.button("← Wstecz", use_container_width=True):
+                save_current_page()
                 go_to(page_num - 1)
                 st.rerun()
 
@@ -156,6 +171,7 @@ def page_questions(questions: list):
                 use_container_width=True,
                 disabled=not answered,
             ):
+                save_current_page()
                 go_to(page_num + 1)
                 st.rerun()
         else:
@@ -165,6 +181,7 @@ def page_questions(questions: list):
                 use_container_width=True,
                 disabled=not answered,
             ):
+                save_current_page()
                 _compute_and_store(questions)
                 go_to(TOTAL_PAGES + 1)
                 st.rerun()
@@ -172,11 +189,11 @@ def page_questions(questions: list):
 # ── Obliczenia ────────────────────────────────────────────────────────────────
 
 def _compute_and_store(questions: list):
-    responses = {}
-    for q in questions:
-        val = st.session_state.get(f"q_{q['id']}")
-        if val is not None:
-            responses[q["id"]] = int(val)
+    responses = {
+        q["id"]: int(st.session_state.answers[q["id"]])
+        for q in questions
+        if q["id"] in st.session_state.answers
+    }
 
     norms   = get_norms()
     raw     = compute_raw_scores(responses, questions)
@@ -288,10 +305,9 @@ def page_results():
             if k.startswith("q_"):
                 del st.session_state[k]
         st.session_state.results = None
+        st.session_state.answers = {}
         go_to(0)
         st.rerun()
-
-# ── Wykresy ───────────────────────────────────────────────────────────────────
 
 def _chart_radar(domains: dict) -> go.Figure:
     order  = ["N", "E", "O", "A", "C"]
